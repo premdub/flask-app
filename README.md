@@ -1,9 +1,10 @@
 # flask-app
 
 
-LOCAL 127.0.0.1:5000
-      127.0.0.1:5000/careers
-      127.0.0.1:5000/HHA504
+LOCAL 
+      192.168.1.26/
+      192.168.1.26/HHA504
+      192.168.1.26/careers
 
 ## Please find URL links for GCP and AZUR:
 
