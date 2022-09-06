@@ -9,11 +9,13 @@ def hello_priya():
 
 @app.route('/careers')
 def careers():
-    return {"POPULAR CAREERS: 	 1	Dentist	
-								2	Registered Nurse
-       						    3	Pharmacist	
-								4	Computer Systems Analyst	
-								5	Physician"}
+    return {"THIS IS CAREERS PAGE:  
+            POPULAR CAREERS: 	 
+			1	Dentist
+			2	Registered Nurse
+			3	Pharmacist	
+			4	Computer Systems Analyst	
+			5	Physician"}
 							
 @app.route('/HHA504')
 def HHA504():
