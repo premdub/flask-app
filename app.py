@@ -4,13 +4,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_priya():
-    return "HELLO PRIYA!....I HOPE YOU ARE DOING WELLLLL...."
-
+    return "HELLO PRIYA!....I HOPE YOU ARE DOING WELLLLL....I HOPE YOU ENJOY AND ABLE TO GET THE CAREER YOU ENJOY AND SUCCESSFUL WITH IT.,,>>>"
 
 @app.route('/careers')
+def career():
+    return "THIS IS CAREERS PAGE:  POPULAR CAREERS ARE IT MANAGER, PHYSICIAN, COMPUTER ENGINEER."
+
+from flask import Flask
+@app.route('/careers')
 def careers():
-    return {"THIS IS CAREERS PAGE:  POPULAR CAREERS", 	 
-			"1	Dentist"}
+    return "THIS IS CAREERS PAGE:  POPULAR CAREERS" 	 
+
+
 		
 							
 @app.route('/HHA504')
